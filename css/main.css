@@ -1,0 +1,53 @@
+html{
+    font-size:62.5%;
+    height:100%;
+}
+body{
+    background-image: url('../images/texture-1.jpg');
+    background-repeat: repeat;
+    height:100%;
+}
+header{
+    background-image: url('../images/texture-3.jpg');
+    width:100%;
+    height:50px;
+    z-index:100;
+}
+header h1{
+    color:#ececec;
+}
+main{
+    height:100%;
+}
+.hero {
+    height:100%;
+}
+.jumbotron{
+    background-image: url('../images/kitchen.jpg');
+    background-repeat: none;
+    background-position: center center;
+    /*height:100%;*/
+}
+.jumbotron h1{
+    color:#ececec;
+}
+.benefits h2{
+    display:inline-block
+}
+.benefits span.glyphicon {
+    font-size: 3rem;
+    margin:0 15px;
+}
+.navbar-brand{
+    width:200px;
+    padding:0
+}
+.navbar-brand img{
+    width:auto;
+    max-height:50px;
+}
+.nav-justified {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
